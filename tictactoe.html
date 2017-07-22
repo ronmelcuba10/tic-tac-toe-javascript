@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="Css/tictactiestyle.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div class="white-background">
+                <div><h1>Tic Tac Toe</h1></div>
+                <div>
+                    <h3>Difficulty :
+                        <label><input type="radio" name="complexity" id="easy" value="" >Easy</label>
+                        <label><input type="radio" name="complexity" id="hard" value="">Hard</label>
+                        <label><input type="radio" name="complexity" id="impossible" value="" checked>Impossible</label>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div id="left-pane"></div>
+        <div id="center-pane" class="white-background">
+            <div id="left-col">
+                <div class="cell empty-cell" id="c00">
+                </div>
+                <div class="cell empty-cell" id="c10">
+                </div>
+                <div class="cell empty-cell" id="c20">
+                </div>
+            </div>
+            <div id="mid-col">
+                <div class="cell empty-cell" id="c01">
+                </div>
+                <div class="cell empty-cell" id="c11">
+                </div>
+                <div class="cell empty-cell" id="c21">
+                </div>
+            </div>
+            <div id="right-col">
+                <div class="cell empty-cell" id="c02">
+                </div>
+                <div class="cell empty-cell" id="c12">
+                </div>
+                <div class="cell empty-cell" id="c22">
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row-fluid">
+            <button type="button" id="restart-game-button" class="btn btn-primary btn-lg">Reset Game</button>
+            <div>
+                <div class="white-background">
+                    <h1 id="message">Keep playing</h1>
+                    <a href="https://ronmelcuba10.github.io/games/index.html">Return to the game index</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Scripts/tictactoejs.js"></script>
+</body>
+</html>

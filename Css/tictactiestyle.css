@@ -1,0 +1,64 @@
+﻿body {
+    text-align : center;
+    background-image: url("../background/tictactoebk.png");
+}
+
+#header {
+    display: block;
+}
+
+label, #right-pane, #center-pane, #left-pane, #left-col, #mid-col, #right-col {
+    display: inline-block;
+}
+
+.centered-game{
+    float : none;
+    margin: 0 auto;
+}
+
+.white-background {
+    background-color:  white;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.cell {
+    width : 200px;
+    height: 200px;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.empty-cell {
+    border: 5px solid black;
+}
+
+.userclicked-cell {
+    width:200px;
+    height:200px;
+    background:transparent;
+    border: 20px solid red;
+    border-radius: 50%;
+}
+
+.machineclicked-cell{
+  background: 
+       -webkit-linear-gradient(bottom right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) calc(50% - 10px), rgba(0,0,0,1) 50%, rgba(0,0,0,0) calc(50% + 10px), rgba(0,0,0,0) 100%),
+       -webkit-linear-gradient(bottom left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) calc(50% - 10px), rgba(0,0,0,1) 50%, rgba(0,0,0,0) calc(50% + 10px), rgba(0,0,0,0) 100%);
+  background: 
+       -moz-linear-gradient(bottom right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) calc(50% - 10px), rgba(0,0,0,1) 50%, rgba(0,0,0,0) calc(50% + 10px), rgba(0,0,0,0) 100%),
+       -moz-linear-gradient(bottom left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) calc(50% - 10px), rgba(0,0,0,1) 50%, rgba(0,0,0,0) calc(50% + 10px), rgba(0,0,0,0) 100%);
+  background: 
+       -o-linear-gradient(bottom right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) calc(50% - 10px), rgba(0,0,0,1) 50%, rgba(0,0,0,0) calc(50% + 10px), rgba(0,0,0,0) 100%),
+       -o-linear-gradient(bottom left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) calc(50% - 10px), rgba(0,0,0,1) 50%, rgba(0,0,0,0) calc(50% + 10px), rgba(0,0,0,0) 100%);
+  background: 
+       linear-gradient(to top left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) calc(50% - 10px), rgba(0,0,0,1) 50%, rgba(0,0,0,0) calc(50% + 10px), rgba(0,0,0,0) 100%),
+       linear-gradient(to top right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) calc(50% - 10px), rgba(0,0,0,1) 50%, rgba(0,0,0,0) calc(50% + 10px), rgba(0,0,0,0) 100%);;
+}
+
+.wining-cell{
+    background-color: blue;
+}
+
+
